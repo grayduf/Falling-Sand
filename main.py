@@ -42,7 +42,7 @@ while run:
     countdown_ms -= sec
     toggle_counter_ms += sec
 
-    if toggle_counter_ms < 0.0:
+    if countdown_ms < 0.0:
 
         if pygame.mouse.get_pressed()[0]:
             mx, my = pygame.mouse.get_pos()
