@@ -1,11 +1,11 @@
 class Setting:
     width = 800
-    height = 800
+    height = 450
     size = (width, height)
-    fps = 60
+    fps = 30
     window = None
 
-    cell_size = 20
+    cell_size = 10
     cols = height//cell_size
     rows = width//cell_size
     offset = 0
