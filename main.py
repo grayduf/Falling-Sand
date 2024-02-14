@@ -34,7 +34,7 @@ while run:
             if event.key == pygame.K_ESCAPE:
                 run = False
             if event.key == pygame.K_SPACE:
-                isPaused = not isPaused
+                paused = not paused
             if event.key == pygame.K_r:
                 grid.reset_grid()
 
